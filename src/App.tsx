@@ -31,7 +31,10 @@ const App = () => {
             path="/"
             element={
               <Link to="/admin/dashboard">
-                <button>Visit Dashboard</button>
+                <button style={{
+                  padding: "5px 10px",
+                  margin:"16px 0 0 16px",
+                }}>Visit Dashboard</button>
               </Link>
             }
           />
